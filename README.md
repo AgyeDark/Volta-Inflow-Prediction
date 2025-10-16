@@ -18,11 +18,11 @@ The final LSTM model achieved a superior performance on the test set compared to
 | **LSTM** | **125.36** | **0.76** |
 
 ![Observed vs. Predicted Plot](figures/final_comparison_plot.png)
-*(You'll need to save your final plot to the `figures` folder)*
+
 
 ## How to Run This Project
 1.  **Clone the repository:** `git clone [your-repo-url]`
-2.  **Set up the environment:** `conda env create -f environment.yml` *(You can create this file)*
+2.  **Set up the environment:** `conda env create -f environment.yml` 
 3.  **Run the notebooks:** Start with `01-Data-Cleaning.ipynb` and proceed in order.
 
 ## Project Structure
