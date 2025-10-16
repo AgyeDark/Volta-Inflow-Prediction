@@ -205,3 +205,13 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Ignore saved models and scalers
+*.keras
+*.pkl
+
+# Ignore processed data files from notebooks
+data/processed/X_train.csv
+data/processed/y_train.csv
+data/processed/X_test.csv
+data/processed/y_test.csv
